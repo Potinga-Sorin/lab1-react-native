@@ -1,0 +1,10 @@
+{
+  "base": [
+    { "kind": "soil",   "label": "Sol",      "icon": "/src/assets/soil.svg" },
+    { "kind": "water",  "label": "Apă",      "icon": "/src/assets/water.svg" },
+    { "kind": "sun",    "label": "Soare",    "icon": "/src/assets/sun.svg" },
+    { "kind": "seed",   "label": "Semințe",  "icon": "/src/assets/seed.svg" },
+    { "kind": "tool",   "label": "Unealtă",  "icon": "/src/assets/tool.svg" },
+    { "kind": "fire",   "label": "Foc",      "icon": "/src/assets/fire.svg" }
+  ]
+}

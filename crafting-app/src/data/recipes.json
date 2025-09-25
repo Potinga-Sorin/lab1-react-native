@@ -1,0 +1,45 @@
+{
+  "victory": "bread",
+  "list": [
+    {
+      "id": "sprout",
+      "rotate": true,
+      "pattern": [
+        null,     "water",   null,
+        "soil",  "seed",    "soil",
+        null,     "sun",     null
+      ],
+      "result": { "kind": "sprout", "label": "Mugur", "icon": "/src/assets/sprout.svg" }
+    },
+    {
+      "id": "plant",
+      "rotate": true,
+      "pattern": [
+        "sun",   null,     "sun",
+        null,    "sprout", null,
+        "water", null,     "water"
+      ],
+      "result": { "kind": "plant", "label": "Plantă", "icon": "/src/assets/plant.svg" }
+    },
+    {
+      "id": "wheat",
+      "rotate": false,
+      "pattern": [
+        null,     "plant",  null,
+        null,     "tool",   null,
+        null,     null,      null
+      ],
+      "result": { "kind": "wheat", "label": "Grâu", "icon": "/src/assets/wheat.svg" }
+    },
+    {
+      "id": "bread",
+      "rotate": false,
+      "pattern": [
+        "wheat", null,   null,
+        null,    "water", null,
+        null,    "fire",  null
+      ],
+      "result": { "kind": "bread", "label": "Pâine caldă", "icon": "/src/assets/bread.svg" }
+    }
+  ]
+}
